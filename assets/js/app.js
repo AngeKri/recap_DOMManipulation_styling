@@ -10,9 +10,17 @@
 */
 
 // 1.1 Fang .mySkills med en egnet metode
+const skill = document.querySelector(".mySkills");
 // 1.2 Anvend document.createElement() til at skabe en div, to span og et meter tag
+
+const newDiv = document.createElement("div");
 // 1.3 Anvend document.textContent til at indsætte data i 2*span(se ovenfor for indhold)
+
+    // fx newDiv.textcontent = "CONTENT";
+
 // 1.4 Anvend .setAttribute() til at sætte de tre attributter i meter-tagget (min, max og value)
+
+
 // 1.5 Anvend .append() til at indsætte <div> i .mySkills
 // 1.6 Anvend .append() til at indsætte 2*span og 1*meter i <div>
 
